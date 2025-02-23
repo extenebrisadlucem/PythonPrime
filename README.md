@@ -2,13 +2,13 @@
 Converting hpprime menus to python
 
 # Introduction
-Suite à mon boulot le resenssement des fonction de la calculatrice HP Prime : https://on7aur.wordpress.com/2025/01/25/liste-des-fonctions-de-la-hpprime/
+Suite à mon boulot le resenssement des fonctions de la calculatrice HP Prime : https://on7aur.wordpress.com/2025/01/25/liste-des-fonctions-de-la-hpprime/
 J'ai eu l'idée de convertir tout ça en python...
 
-Ce travail n'est pas tout à fait exacte . J'ai travaillé avec une installation locale du moteur deepseek 14b - qui consomme 130Watts sur mon serveur lorsqu'il réfléchis...
-Toute aide sera la bienvenue pour corriger les éventuels problèmes.
+Ce travail n'est pas tout à fait exacte . J'ai travaillé avec une installation locale du moteur deepseek 14b - (note pour les anti-ai : le moteur AI consomme 130Watts sur mon serveur lorsqu'il réfléchis)... Les prompts ne pouvaient pas dépasser les 5 lignes sinon il commençait à délirer, ça vous donne une idée du temps que ça m'a pris...
+Toute aide sera la bienvenue pour corriger les éventuels problèmes. Limite on met une colonne supplémentaire avec une checkbox pour les lignes validées...
 
-Ma première idée était de tester toutes les snippets dans des prompts jupyter, mais vu la quantité de snippets, c'est un boulot fastidieux . J'ai tenté quelques prompts, mais comment s'assurer que l'IA sera honnête en êtant juge et partie ayant sa somme de connaissances. Recruter une IA sur le net à raison de 10 prompts de maximum 10 lignes par heures ?
+Ma première idée était de tester toutes les snippets dans des prompts jupyter, mais vu la quantité de snippets, c'est un boulot fastidieux . J'ai tenté quelques prompts, mais comment s'assurer que l'IA sera honnête en êtant juge et partie? Recruter une IA sur le net à raison de 10 prompts de maximum 10 lignes par heures ?
 
 Du coup, en attendant que je trouve un moyen efficace de valider tout ça, je poste ici.
 
